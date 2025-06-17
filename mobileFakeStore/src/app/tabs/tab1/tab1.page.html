@@ -10,13 +10,16 @@
 <ion-list>
   <ion-item *ngFor="let produto of produtos" (click)="verDetalhes(produto.id)">
     <ion-thumbnail slot="start">
-      <img [src]="produto.image" alt="Imagem do produto">
-    </ion-thumbnail>
+  <img [src]="produto.image" alt="Imagem do produto" style="border-radius: 8px;">
+</ion-thumbnail>
     <ion-label>
-      <h2>{{ produto.title }}</h2>
-      <p>Categoria: {{ produto.category }}</p>
-      <p>Preço: R$ {{ produto.price }}</p>
-    </ion-label>
+  <h2>{{ produto.title }}</h2>
+  <p>Categoria: {{ produto.category }}</p>
+  <ion-badge color="success" style="font-size: 1em;">R$ {{ produto.price }}</ion-badge>
+</ion-label>
+    <ion-button fill="clear" slot="end" color="primary">
+      Ver Detalhes
+    </ion-button>
   </ion-item>
 </ion-list>
 </ion-content>
