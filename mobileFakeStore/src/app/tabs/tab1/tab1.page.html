@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Produtos
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<ion-list>
+  <ion-item *ngFor="let produto of produtos" (click)="verDetalhes(produto.id)">
+    <ion-thumbnail slot="start">
+      <img [src]="produto.image" alt="Imagem do produto">
+    </ion-thumbnail>
+    <ion-label>
+      <h2>{{ produto.title }}</h2>
+      <p>Categoria: {{ produto.category }}</p>
+      <p>Preço: R$ {{ produto.price }}</p>
+    </ion-label>
+  </ion-item>
+</ion-list>
+</ion-content>
