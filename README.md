@@ -53,9 +53,9 @@ Você pode compartilhar, copiar, redistribuir e adaptar este projeto para qualqu
 
 ## Imagens do projeto rodando
 
-![Listagem de produtos](./Imagens/Lista de produtos.png)
-![Listagem de produtos 2](./Imagens/Listagem de produtos 2.png)
-![Listagem de produtos fora da tela cheia](./Imagens/Lista de produtos fora da tela cheia.png)
+![Listagem de produtos](./Imagens/Lista_produtos.png)
+![Listagem de produtos 2](./Imagens/Listagem_produtos_2.png)
+![Listagem de produtos fora da tela cheia](./Imagens/Lista_de_produtos_fora_da_tela_cheia.png)
 ![Informação do aluno](./Imagens/informações_aluno.png)
-![Informação de um produto específico](./Imagens/Informações dos produtos.png)
-![Informação de um produto específico fora de tela cheia](./Imagens/descrição do produto fora da tela cheia.png)
+![Informação de um produto específico](./Imagens/Informações_dos_produtos.png)
+![Informação de um produto específico fora de tela cheia](./Imagens/descrição_do_produto_fora_da_tela_cheia.png)
