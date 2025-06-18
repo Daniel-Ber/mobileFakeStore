@@ -51,5 +51,11 @@ Este projeto está licenciado sob a [Creative Commons Attribution 4.0 Internatio
 
 Você pode compartilhar, copiar, redistribuir e adaptar este projeto para qualquer finalidade, desde que atribua o devido crédito ao autor.
 
+## Imagens do projeto rodando
 
-
+![Listagem de produtos](./Imagens/Lista de produtos.png)
+![Listagem de produtos 2](./Imagens/Listagem de produtos 2.png)
+![Listagem de produtos fora da tela cheia](./Imagens/Lista de produtos fora da tela cheia.png)
+![Informação do aluno](./Imagens/informações_aluno.png)
+![Informação de um produto específico](./Imagens/Informações dos produtos.png)
+![Informação de um produto específico fora de tela cheia](./Imagens/descrição do produto fora da tela cheia.png)
